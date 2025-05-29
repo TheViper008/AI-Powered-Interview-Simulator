@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}Test Feedback{% endblock %}
+
+{% block style %}
+<link href="{% static 'css/feedback.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block main %}
+<div class="container mt-4">
+  {% for question in feedback %}
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="mb-0">{{ question.question|default:"(Question missing)" }}</h4>
+    </div>
+    <div class="card-body">
+      {% if question.accuracy != "(Skipped)" %}
+      <h5 class="card-title">Accuracy</h5>
+      <p class="card-text">{{ question.accuracy }}</p>
+
+      <h5 class="card-title">Grammar</h5>
+      <p class="card-text">{{ question.grammar }}</p>
+
+      <h5 class="card-title">Speech Confidence</h5>
+      <p class="card-text">{{ question.audio_confidence }}</p>
+      {% else %}
+      <p class="text-muted">This question was skipped and not evaluated.</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
+
+{% block script %}
+<!-- Optional: JS scripts can go here -->
+{% endblock %}
