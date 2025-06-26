@@ -85,7 +85,9 @@ Project guided by **Mrs. Krishna Sowjanya K**, Assistant Professor, Dept. of CSE
 
 This project is for academic and educational purposes. Contact authors for extended use.
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
 Follow these steps to set up and run the application locally:
 
 1. Clone the Repository
