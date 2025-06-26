@@ -121,8 +121,8 @@ This project was developed as part of the final-year engineering curriculum at *
 
 ## 🧑‍💻 Authors
 
-* **V. Anantharaman** – [@TheViper008](https://github.com/TheViper008)
-* **Vaishnav Sudheer** - [@AnanthJaeger401](https://github.com/AnanthJaeger401)
+* **V. Anantharaman** – [@AnanthJaeger401](https://github.com/AnanthJaeger401)
+* **Vaishnav Sudheer** - [@TheViper008](https://github.com/TheViper008)
 
 Project guided by **Mrs. Krishna Sowjanya K**, Assistant Professor, Dept. of CSE, CMRIT
 
