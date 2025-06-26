@@ -1,5 +1,3 @@
-Absolutely! Below is your **complete `README.md`** file—fully formatted, copy-paste-ready, and including everything you've asked for: overview, features, tech stack, how it works, how to run, notes, datasets, academic context, future scope, authors, and license.
-
 ---
 
 # AI-Powered Interview Simulator 🎤🤖
@@ -12,7 +10,6 @@ The AI-Powered Interview Simulator is designed to offer users a realistic, voice
 
 - **Speech confidence** (using Wav2Vec & emotion recognition)
 - **Grammar and language quality** (via Gemini API)
-- **Content relevance and accuracy** (NLP evaluation)
 
 The platform provides a detailed feedback report to help users identify their strengths and improve weak areas—boosting their confidence and interview readiness.
 
@@ -137,7 +134,3 @@ This project is for academic and educational purposes. Contact authors for exten
 
 ```
 
----
-
-You can now paste this entire content directly into your `README.md` file in your GitHub repo. Let me know if you want to include demo images, video walkthroughs, or setup instructions for APIs and environment variables!
-```
