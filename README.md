@@ -85,3 +85,44 @@ Project guided by **Mrs. Krishna Sowjanya K**, Assistant Professor, Dept. of CSE
 
 This project is for academic and educational purposes. Contact authors for extended use.
 
+🚀 Getting Started
+Follow these steps to set up and run the application locally:
+
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/TheViper008/AI-Powered-Interview-Simulator.git
+cd AI-Powered-Interview-Simulator
+2. Create a Virtual Environment (Optional but Recommended)
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate     # On Windows use: venv\Scripts\activate
+3. Install Dependencies
+Make sure you have Python installed (recommended version: 3.9+)
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4. Run the Django Application
+bash
+Copy
+Edit
+python manage.py runserver
+Then open your browser and navigate to:
+
+cpp
+Copy
+Edit
+http://127.0.0.1:8000/
+
+📌 Notes
+Ensure your system has a working microphone for voice input.
+
+Internet connection is required for API integrations (e.g., Gemini, Whisper if running cloud-based).
+
+Whisper and Wav2Vec models may require additional setup or GPU for optimal performance.
+
